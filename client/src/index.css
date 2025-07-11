@@ -1,0 +1,120 @@
+.error {
+    color: red;
+}
+
+body{
+  background-color: #171717;
+  color: #fff;
+}
+
+.login-page {
+  height: 100%;
+}
+
+.login-form {
+  border: 1px solid var(--primary-text);
+  border-radius: 10px;
+}
+
+input[type='email']{
+  border: var(--primary-btn);
+}
+
+.login-nav {
+  background-color: #000000;
+  width: 90%;
+  border: 1px solid #858585;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@media (min-width: 426px) {
+  .login-nav{
+    width: 50% !important;
+  }
+}
+@media (min-width: 769px) {
+  .login-nav{
+    width: 40% !important;
+  }
+}
+@media (min-width: 1441px) {
+  .login-nav{
+    width: 20% !important;
+    color: #8f8f8f1e;
+  }
+}
+
+.admin-tab {
+  border-right: 1px solid #858585 !important;
+}
+
+.employee-tab,
+.admin-tab {
+  padding: 20px 10px !important;
+}
+
+.form-section {
+  background-color: #161515;
+  border: 1px solid #858585;
+  border-radius: 7px;
+  padding: 30px;
+}
+
+.admin-nav {
+  background-color: #000000;
+  width: 90%;
+  border: 1px solid #858585;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9997;
+}
+
+.popup-bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  background-color: rgb(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+.popup-action {
+  position: fixed;
+  top: 50% !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.popup-bg-action {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9998;
+  background-color: rgb(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lm-nav {
+  background-color: #000000;
+  width: 50%;
+  border: 1px solid #858585;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.back {
+  color: #858585;
+}
